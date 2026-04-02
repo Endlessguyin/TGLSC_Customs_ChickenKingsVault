@@ -1,3 +1,3 @@
-# chicken-kings-really-cool-test-website
-test game website
-100% super cool
+# Chicken Kings Vault
+
+Chicken Kings Vault is an open sourced unblocked game website full of flash, webports, emulator and many more types of games!
