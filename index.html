@@ -180,15 +180,15 @@
         </a>
     </div>
     <h1 class="site-logo"><img class="logo-icon" src="favicon.png" alt="logo">Chicken Kings Vault<a href="https://youtu.be/BXJjBo_u3WM?si=U_8QGjcfUxvZm0IM" target="_blank" class="logo-icon"><img src="favicon.png" alt="logo"></a></h1>
-       <div class="center-content">
+    <div class="center-content">
         <p>All game credits go to gn-math, truffled.lol and Ultimate Game Stash</p>
-            <div class="search-container">
-                <input id="search-input" class="search-input" type="search" placeholder="Search games..." aria-label="Search games">
-            </div>
-            <div class="game-list">
-
-            </div>
-            <!-- <object data="games.html"></object> -->
+        <div class="search-container">
+            <input id="search-input" class="search-input" type="search" placeholder="Search games..." aria-label="Search games">
+        </div>
+        <div class="game-list">
+            
+        </div>
+        <!-- <object data="games.html"></object> -->
         <div id="no-results" class="no-results">No games match your search.</div>
     </div>
     <!--leave this script block empty it's only here to load games.js-->
@@ -232,6 +232,9 @@
             function filterGames(){
                 const q = normalize(input.value || '');
                 let visible = 0;
+                if(q == "end") {
+                    window.open("https://youtu.be/eVTXPUF4Oz4?si=fJegVrBYO1yf0I80")
+                }
                 gameList.forEach(a => {
                     const title = normalize(a.textContent || a.innerText || '');
                     if(q === '' || title.indexOf(q) !== -1){
