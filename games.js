@@ -3286,4 +3286,8 @@ const games =`
 <a class="game-link" href="gamefiles/beatblock.html">
     <img src="gameimages/beatblock.png" alt="Beat Block Cover">
     <div>Beat Block</div>
+</a>
+<a class="game-link" href="gamefiles/beatblock.html">
+    <img src="gameimages/supermonkeyballjr.png" alt="Super Monkey Ball Jr. Cover">
+    <div>Super Monkey Ball Jr.</div>
 </a>`;
