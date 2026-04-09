@@ -3294,4 +3294,8 @@ const games =`
 <a class="game-link" href="gamefiles/stardewvalley.html">
     <img src="gameimages/stardewvalley.png" alt="Stardew Valley Cover">
     <div>Stardew Valley</div>
+</a>
+<a class="game-link" href="gamefiles/helltakergame.html">
+    <img src="gameimages/helltaker.png" alt="Helltaker Cover">
+    <div>Helltaker</div>
 </a>`;
