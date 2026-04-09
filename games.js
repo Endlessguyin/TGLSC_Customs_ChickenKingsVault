@@ -3287,7 +3287,15 @@ const games =`
     <img src="gameimages/beatblock.png" alt="Beat Block Cover">
     <div>Beat Block</div>
 </a>
-<a class="game-link" href="gamefiles/beatblock.html">
+<a class="game-link" href="gamefiles/supermonkeyballjr.html">
     <img src="gameimages/supermonkeyballjr.png" alt="Super Monkey Ball Jr. Cover">
     <div>Super Monkey Ball Jr.</div>
+</a>
+<a class="game-link" href="gamefiles/stardewvalley.html">
+    <img src="gameimages/stardewvalley.png" alt="Stardew Valley Cover">
+    <div>Stardew Valley</div>
+</a>
+<a class="game-link" href="gamefiles/helltakergame.html">
+    <img src="gameimages/helltaker.png" alt="Helltaker Cover">
+    <div>Helltaker</div>
 </a>`;
